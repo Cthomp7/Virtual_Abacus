@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+main {
+    position: relative;
+}
+
+.abacus {
+    margin: 0 auto;
+    margin-top: 5rem;
+    user-select: none;
+    max-width: 70vw;
+    position: relative;
+    background-image: url(images/abacus-board.png);
+    aspect-ratio: 2 / 1;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.c {
+    position: absolute;
+    max-height: 9%;
+    width: 7.95%;
+    background-image: url(images/abacus-counter.png);
+    aspect-ratio: 1 / 1;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.nums {
+    max-width: 60%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.num {
+    padding: 1% 2%;
+    border-radius: 20%;
+    background-color: rgb(241, 241, 241);
+}
+
+.num p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(60% + 2vmin);
+    color: rgb(201, 201, 201);
+}
