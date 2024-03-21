@@ -1,2 +1,2 @@
-# SCIENCE-3117_Abacus-NapiersBones
-Abacus and Napier's Bones Project
+# Virtual_Abacus
+Virtual Abacus Project for SCIENCE-3117 Course
